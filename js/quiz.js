@@ -8,6 +8,7 @@ function changeTitle(title) {
 
 function changeAnimal(animal) {
 	document.getElementById ("quest_animal").src = animal;
+    document.getElementById ("leafbg").src = "../images/leaf.gif";
 }
 
 function appendAnswer(answer, index) {
@@ -114,11 +115,11 @@ var currentAns;
 var currentQuest = -1;
 
 var animals = [
-	'/../images/animated_squirrel.gif',
-	'/../images/animated_coyote.gif',
-	'/../images/animated_snek.gif',
-	'/../images/animated_borb.gif',
-	'/../images/animated_raccoon.gif'
+	'/../images/squirrel_alone.gif',
+	'/../images/coyote_alone.gif',
+	'/../images/snek_alone.gif',
+	'/../images/borb_alone.gif',
+	'/../images/raccoon_alone.gif'
 ]
 
 //Events//
