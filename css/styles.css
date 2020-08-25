@@ -668,6 +668,7 @@ input[type="radio"]:checked+label {
     justify-content: center;
     align-items: center;
     display:flex;
+    
 }
 
 
@@ -686,8 +687,12 @@ border-radius: 0.5vmax;
     display:flex;
     flex-flow: wrap;
     outline:0;
+    
 }
 
+a#quest_submit {
+    color:#F4F2E8 !important;
+}
 
 
 #quest_submit:hover {
@@ -695,6 +700,7 @@ border-radius: 0.5vmax;
     border:1px solid #F29165;
     background:#F29165;
     color:#F4F2E8 !important;
+
 }
 
 #quest_submit:active {
