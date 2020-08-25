@@ -29,12 +29,12 @@ button {
 h1 {
 font-family: 'bn_pepper_romanregular';
 font-style: normal;
-font-size: 4rem;
+font-size: 6rem;
 letter-spacing: 1.2px;
 line-height: 1;
 text-align: center;
 padding:1.2rem 0;
-    color: #57442F;
+color: #57442F;
 }
 
 
@@ -107,7 +107,7 @@ padding-top:0;
     padding-bottom:0.4rem;
     letter-spacing: 0.2rem;
 position:relative;
-    text-shadow: 2px 2px 1px #2E2419;
+    text-shadow: 3px 3px 1px #86A688;
 }
 
 
@@ -641,7 +641,7 @@ padding:1rem  ;
     border-radius: 0.5vmax;
 background:#F4F2E8;
 /*    background:#DBD3C0;*/
-    transition:0.5s all;
+    transition:0.3s all;
     margin-bottom:0.8em;
     color: #2E2419;
 }
