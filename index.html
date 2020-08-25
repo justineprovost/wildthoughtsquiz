@@ -23,7 +23,7 @@
   <div class="overlay-content">
     <a href="#" class="one"><span>Home</span></a>
     <a href="#about" class="two" onclick="revealAbout()"><span>About</span></a>
-    <a href="#questions" class="seemore" onclick="revealQuiz()"><span>the quiz</span></a>
+    <a href="#questions" onclick="revealQuiz()"><span>the quiz</span></a>
   </div>
 </nav>
 
@@ -33,7 +33,7 @@
 </script>
 
     <div id="reveal_leaf"></div><section id="landing" >	<h1 data-aos="fade-up">Wild Thoughts</h1>
-		<h4>A Kellert Attitude Quiz</h4>
+		<h4>How do you percieve animals in the city?</h4>
 		
 <!--    <div id="reveal_leaf"></div>-->
     
@@ -48,8 +48,10 @@
 
 
 <section id="about">
-    <article><div id="aboutbox"><h5 id="firstpara">This quiz is inspired by Fidino et al.'s 2018 study <a href="https://www.tandfonline.com/doi/pdf/10.1080/10871209.2018.1468943?casa_token=poalCX8hkLgAAAAA%3Ax7S0mwpijoLfBPJ9dLqMhBvHFPjmgC-Ug1fIF7Ky5KuQNVQr5WkaiHk0_f1-Wq_61P14os58BzKz&" target="_blank">"Assessing online opinions of wildlife through social media"</a>, in which researchers evaluated the public’s opinion towards North American species and classified them according to the <a href="https://research.ncsu.edu/ges/files/2014/03/Kellert1984_AttitudesUpdate.pdf" target="_blank">9 Kellert Attitudes.</a></h5><h5>Looking at species found in the Tiohtià:ke/Montréal environment, this quiz will help you find out which attitude category you fall into. </h5></div>
+    <article><div id="aboutbox"><h2>About this quiz</h2><h5 id="firstpara">This quiz is inspired by Fidino et al.'s 2018 study <a href="https://www.tandfonline.com/doi/pdf/10.1080/10871209.2018.1468943?casa_token=poalCX8hkLgAAAAA%3Ax7S0mwpijoLfBPJ9dLqMhBvHFPjmgC-Ug1fIF7Ky5KuQNVQr5WkaiHk0_f1-Wq_61P14os58BzKz&" target="_blank">"Assessing online opinions of wildlife through social media"</a>, in which researchers evaluated the public’s opinion towards North American species and classified them according to the <a href="https://research.ncsu.edu/ges/files/2014/03/Kellert1984_AttitudesUpdate.pdf" target="_blank">9 Kellert Attitudes.</a></h5><h5>Looking at species found in the Tiohtià:ke/Montréal environment, this quiz will help you find out which attitude category you fall into. </h5><img src="images/nut.png"></div>
  </article> 
+ 
+ 
 		
 </section>
 
@@ -235,7 +237,8 @@ slider.oninput = function() {  //oninput is an event
   function revealQuiz() {
  document.getElementById("questions").style.minHeight= "100vh" , 
        document.getElementById("questions").style.height= "auto" ,
-       document.getElementById("quest_container").style.display= "grid"
+       document.getElementById("quest_container").style.display= "grid",
+      document.getElementById("start_quiz").style.display ="none"
   }
 </script>
 
