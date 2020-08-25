@@ -301,9 +301,9 @@ color: #EBCAB2;
 
 #aboutbox img {
     position:absolute;
-    bottom:-10%;
-    right:-10%;
-    width:120px;
+    bottom:-5%;
+    right:-5%;
+    width:80px;
 }
 
 
@@ -1432,5 +1432,12 @@ grid-template-columns: 1fr;
 .options {
     width:40vw;
     }
+    
+    #aboutbox img {
+    position:absolute;
+    bottom:-10%;
+    right:-10%;
+    width:120px;
+}
 
 }
