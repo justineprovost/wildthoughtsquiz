@@ -1253,7 +1253,7 @@ flex: 1 auto;
 .closebtn {
 position: absolute;
 z-index: 99;
-top: 2.5vmax;
+top: 5vh;
 right: 2vmax;
 font-size: 2rem;
 line-height: 0px;
