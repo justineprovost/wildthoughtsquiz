@@ -7,7 +7,7 @@ function changeTitle(title) {
 
 function changeAnimal(animal) {
 	document.getElementById ("quest_animal").src = animal;
-    document.getElementById ("leafbg").src = "../images/leaf.gif";
+    document.getElementById ("leafbg").src = "wildthoughtsquiz/images/leaf.gif";
 }
 
 function appendAnswer(answer, index) {
