@@ -29,7 +29,7 @@ button {
 h1 {
 font-family: 'bn_pepper_romanregular';
 font-style: normal;
-font-size: 6rem;
+font-size: 3rem;
 letter-spacing: 1.2px;
 line-height: 1;
 text-align: center;
@@ -99,6 +99,15 @@ widows: 3;
 visibility:hidden;
 } 
 
+#trigger {
+top: 3vh;
+right:50vw;
+}
+
+#trigger h5 {
+    display:none;
+}
+
 /*********LANDING*******/
 
 #landing {
@@ -115,7 +124,7 @@ flex-flow:column;
 #landing h1 {
 color:#F4F2E8;
 padding-top:0;
-    padding-bottom:0.4rem;
+    padding-bottom:0.8rem;
     letter-spacing: 0.2rem;
 position:relative;
     text-shadow: 3px 3px 1px #86A688;
@@ -305,7 +314,7 @@ color: #EBCAB2;
 
 #reveal_leaf {
 position:absolute;
-    display: inline-block;
+    display:none;
     top:auto;
     left:0;
     right:0;
@@ -1134,6 +1143,17 @@ align-items: center;
 
 
 
+
+
+/***********************************TABLET**************************************/
+
+@media all and (min-width: 600px) {
+
+    
+
+
+/*************************************DESKTOP*****************************************/
+
 /****************************************MENU**********************************************/
 
 #trigger {
@@ -1156,6 +1176,7 @@ flex-flow: column;
     padding-top:0;
     font-size: 1rem;
     color:#F4F2E8;
+    display:block;
 }
 
 #menufeet {
@@ -1258,19 +1279,14 @@ font-weight: normal;
 
 .closebtn:hover {
 color: #EBCAB2;
-}
-
-/***********************************TABLET**************************************/
-
-@media all and (min-width: 600px) {
-
+}    
     
-
-
-/*************************************DESKTOP*****************************************/
-
 @media all and (min-width: 1000px) {
 
+    h1 {
+        font-size: 6rem;
+    }    
+    
 #landing {
     height:100vh;
 }
@@ -1293,7 +1309,7 @@ width:100vw;
 } */
     
 #reveal_leaf {
-
+display: inline-block;
 }
     
 #step1 {
