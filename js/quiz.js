@@ -1,6 +1,5 @@
 // JavaScript Document
 
-//Utilitaires pour modifier le DOM//
 
 function changeTitle(title) {
   document.getElementById ("quest_title").innerHTML = title;
@@ -115,11 +114,11 @@ var currentAns;
 var currentQuest = -1;
 
 var animals = [
-	'/../images/squirrel_alone.gif',
-	'/../images/coyote_alone.gif',
-	'/../images/snek_alone.gif',
-	'/../images/borb_alone.gif',
-	'/../images/raccoon_alone.gif'
+	'wildthoughtsquiz/images/squirrel_alone.gif',
+	'wildthoughtsquiz/images/coyote_alone.gif',
+	'wildthoughtsquiz/images/snek_alone.gif',
+	'wildthoughtsquiz/images/borb_alone.gif',
+	'wildthoughtsquiz/images/raccoon_alone.gif'
 ]
 
 //Events//
