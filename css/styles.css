@@ -1075,9 +1075,10 @@ text-align: center;
 animation:fadeIn 1.5s linear;
 border-radius: 0.5vmax;
     padding:0.5rem 1rem;
+    margin-bottom:1em;
     transition: all .2s;
     display:flex;
-    flex-flow: wrap;
+    flex-flow: column;
     outline:0;
 }
 
@@ -1089,8 +1090,8 @@ a.seemore{
     width:80vw;
     display:flex;
     flex-flow:wrap;
-    justify-content: space-between;
     padding-top:5vh;
+    justify-content: center;
 }
 
 
@@ -1430,8 +1431,25 @@ grid-template-columns: 1fr;
     }
 
 .options {
-    width:40vw;
+    width:50vw;
+    justify-content: space-around;
     }
+    
+
+    
+    .seemore {
+border: 0.5px solid #453625;
+cursor: pointer;
+text-align: center;
+animation:fadeIn 1.5s linear;
+border-radius: 0.5vmax;
+
+    transition: all .2s;
+    display:flex;
+        margin-bottom:0;
+    flex-flow: wrap;
+    outline:0;
+}
     
     #aboutbox img {
     position:absolute;
