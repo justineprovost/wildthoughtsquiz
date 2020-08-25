@@ -34,6 +34,7 @@ letter-spacing: 1.2px;
 line-height: 1;
 text-align: center;
 padding:1.2rem 0;
+    color: #453625;
 }
 
 h2 {
@@ -1068,7 +1069,7 @@ flex-flow: column;
 /*See more button*/
 
 .seemore {
-border: 0.5px solid #F4F2E8;
+border: 0.5px solid #453625;
 cursor: pointer;
 text-align: center;
 animation:fadeIn 1.5s linear;
@@ -1081,7 +1082,7 @@ border-radius: 0.5vmax;
 }
 
 a.seemore{
-   color: #F4F2E8 !important;
+   color: #453625 !important;
 }
 
 .options {
