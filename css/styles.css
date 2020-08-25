@@ -39,7 +39,7 @@ padding:1.2rem 0;
 h2 {
 font-family: 'bn_pepper_romanregular';
 font-style: normal;
-font-size: 4rem;
+font-size: 2rem;
 letter-spacing: 1.2px;
 line-height: 1;
 text-align: center;
@@ -1143,28 +1143,17 @@ align-items: center;
 
 
 
-
-
-/***********************************TABLET**************************************/
-
-@media all and (min-width: 600px) {
-
-    
-
-
-/*************************************DESKTOP*****************************************/
-
 /****************************************MENU**********************************************/
 
 #trigger {
 cursor: pointer;
-position: fixed;
+position: absolute;
 top: 3vh;
 z-index: 9;
 color: #2E2419;
 font-weight: 700;
 transition: all 2s;
-right:2vmax;
+right:45vw;
 display:flex;
 justify-content: center;
 align-items: center;
@@ -1172,7 +1161,6 @@ flex-flow: column;
 }
 
 #trigger h5 {
-    font-family: 'bn_pepper_romanregular';
     padding-top:0;
     font-size: 1rem;
     color:#F4F2E8;
@@ -1279,85 +1267,44 @@ font-weight: normal;
 
 .closebtn:hover {
 color: #EBCAB2;
-}    
+}
+
+/***********************************TABLET**************************************/
+
+@media all and (min-width: 600px) {
+
     
+
+
+/*************************************DESKTOP*****************************************/
+
 @media all and (min-width: 1000px) {
 
     h1 {
         font-size: 6rem;
     }    
     
+    h2 {
+        font-size:4rem;
+    }
+    
 #landing {
     height:100vh;
 }
 
 
-#reveal-elements {
-grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-
-}
-    
-.steps {
-    padding-bottom:0;
-    }
-    
-/* #leaf_bg {
-position:absolute;
-z-index:1;
-width:100vw;
-} */
     
 #reveal_leaf {
 display: inline-block;
 }
     
-#step1 {
-grid-column: 6 / 7;
-grid-row: 1 / 2;
-}
 
-#step2 {
-grid-column: 4 / 5;
-grid-row: 3/ 4;
-}
-
-#step3 {
-grid-column: 6 / 7;
-grid-row: 5 / 6;
-}
+#trigger {
+        right:2vmax;
+    position: fixed;
+    }
     
-#step4 {
-grid-column: 4 / 5;
-grid-row: 7/ 8;
-}
-
-#step5 {
-grid-column: 6 / 7;
-grid-row: 9 / 10;
-}
-
-#step6 {
-    display:block;
-grid-column: 4 / 5;
-grid-row: 11 / 12;
-}
-    
-#step7 {
-    display:block;
-grid-column: 6 / 7;
-grid-row: 13 / 14;
-}
-
-#step8 {
-    display:block;
-grid-column: 4 / 5;
-grid-row: 15/ 16;
-}
-
-    
-    
-    /***questions***/
+/***questions***/
     
     
 #questions {
