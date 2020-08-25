@@ -1086,7 +1086,7 @@ a.seemore{
 }
 
 .options {
-    width:40vw;
+    width:80vw;
     display:flex;
     flex-flow:wrap;
     justify-content: space-between;
@@ -1429,12 +1429,8 @@ grid-template-columns: 1fr;
         grid-row: 4 / 5;
     }
 
-#landing {
-
-}
-
-@media all and (min-width: 1300px) {
-
-
+.options {
+    width:40vw;
+    }
 
 }
