@@ -215,11 +215,7 @@ grid-column: 2 / 3;
 }
 
 
-.demo2 a {
-  color: #553529;
-  letter-spacing: .1em;
-  transition: opacity .2s;
-}
+
 .demo2 a:hover {
   opacity: .5;
 }
@@ -240,19 +236,12 @@ font-family: 'pangramregular', sans-serif;
     font-weight: 700;
     opacity:0.8;
     color:#F4F2E8;
-    padding-right:2em;
+    padding-right:0;
+    padding-top:2rem;
 }
 
 #section05 div span {
-position: absolute;
-    right:0;
-  width: 20px;
-  height: 20px;
-  border-left: 1px solid #F4F2E8;
-  border-bottom: 1px solid #F4F2E8;
-  transform: rotate(-135deg);
-  animation: sdb05 2s infinite;
-  box-sizing: border-box;
+display:none;
     
 }
 
@@ -1457,5 +1446,49 @@ border-radius: 0.5vmax;
     right:-10%;
     width:120px;
 }
+    
+    .demo2 a {
+  color: #553529;
+  letter-spacing: .1em;
+  transition: opacity .2s;
+}
+.demo2 a:hover {
+  opacity: .5;
+}
+
+#section05 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin:0 auto;
+    padding-bottom:1rem;
+}
+
+#section05 h6 {
+font-family: 'pangramregular', sans-serif;
+    font-size:1rem;
+    letter-spacing: 2px;
+    opacity:0.8;
+    color:#F4F2E8;
+    padding-right:2em;
+    padding-top:1rem;
+}
+
+#section05 div span {
+position: absolute;
+    right:0;
+    bottom:40%;
+  width: 10px;
+  height: 10px;
+  border-left: 1px solid #F4F2E8;
+  border-bottom: 1px solid #F4F2E8;
+  transform: rotate(-135deg);
+  animation: sdb05 2s infinite;
+  box-sizing: border-box;
+    display:flex;
+    
+}
+
 
 }
