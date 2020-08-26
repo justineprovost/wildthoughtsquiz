@@ -314,7 +314,7 @@ position:absolute;
 
 
 #start_quiz {
-    bottom:25%;
+    bottom:15%;
     position:absolute;
     z-index:22;
     color: #F4F2E8;
@@ -1284,7 +1284,9 @@ color: #EBCAB2;
     height:100vh;
 }
 
-
+#start_quiz {
+    bottom:25%;
+    }
     
 #reveal_leaf {
 display: inline-block;
