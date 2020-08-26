@@ -226,7 +226,7 @@ grid-column: 2 / 3;
     align-items: center;
     text-align: center;
     margin:0 auto;
-    padding-bottom:1rem;
+    padding-bottom:2rem;
 }
 
 #section05 h6 {
@@ -242,7 +242,6 @@ font-family: 'pangramregular', sans-serif;
 
 #section05 div span {
 display:none;
-    
 }
 
 @keyframes sdb05 {
