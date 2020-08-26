@@ -529,7 +529,6 @@ text-align: center;
 background: #688a6d;
 border-radius: 0.5vmax;
     padding:0.5rem 1rem;
-
     transition: all .2s;
     transform:translateX(-5px);
     animation:shake 1s infinite;
@@ -628,7 +627,7 @@ animation-fill-mode: forwards;
     content: '';
     left:0;
 font-family: 'pangramregular', sans-serif;
-    font-weight: 500;
+    
     align-items: center;
     display: inline-block;
     align-items: center;
@@ -1001,7 +1000,6 @@ grid-template-rows: 1fr;
 }
 
 #att_display_text {
-font-weight: 500;
 color:#2E2419;
     padding-top:-0;
 }
@@ -1253,7 +1251,6 @@ text-decoration: none;
 font-family: 'Lato', sans-serif;
 color: #57442F;
 text-transform: uppercase;
-font-weight: normal;
 }
 
 .closebtn:hover {
@@ -1335,7 +1332,7 @@ justify-content: center;
 align-items: center;
 color: #2E2419;
 font-family: 'pangramregular', sans-serif;
-font-weight:500;
+font-weight:700;
 text-align: center;
 font-size:1.2rem;
 line-height:1.4;
