@@ -142,12 +142,15 @@ position:relative;
     z-index:1;
 }
 
-/*
 #leaf_bg {
 position:absolute;
-z-index:5;
+    display:inline-block;
+    top:auto;
+    left:0;
+    right:0;
+    bottom:0;
+    width: 100vw;
 }
-*/
 
 .demo h6 {
 font-family: 'pangramregular', sans-serif;
@@ -303,11 +306,10 @@ color: #EBCAB2;
 
 #reveal_leaf {
 position:absolute;
-    display:none;
-    top:auto;
+    top:0;
     left:0;
     right:0;
-    bottom:0;
+    bottom:auto;
     width: 100vw;
 }
 
@@ -1353,10 +1355,7 @@ height:100%;
 #quest_animal {
     width:100%;
 }
-    
-    #leaf_bg {
-        width:100%;
-    }
+
 
 #quest_ans_container {
     grid-column: 1 / 2;
